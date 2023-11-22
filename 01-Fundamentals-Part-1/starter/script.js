@@ -32,7 +32,7 @@ age = 31;
 
 const birthYear = 1991;
 
-*/
+
 // math operators
 const currentYear = 2023;
 const ageMichal = currentYear - 1998;
@@ -58,3 +58,43 @@ console.log(ageMichal >= 18)
 
 const isFullAge = ageKaczynski >= 18;
 console.log()
+console.log()
+const avarageAge = (ageKaczynski + ageMichal) / 2
+console.log(avarageAge);
+
+
+// CODING CHALLENGE 1
+
+const markWeight = 95;
+const markHeight = 1.88; //in cm
+const johnWeight = 85;
+const johnHeight = 1.76; //in cm
+
+const markBMi = markWeight / (markHeight * markHeight);
+const johnBMI = johnWeight / (johnHeight * johnHeight);
+console.log("Mark BMI is: "+ markBMi);
+console.log("John BMI is: "+ johnBMI);
+
+const markHigherBMI = markBMi > johnBMI;
+console.log("Does Mark has a higher BMI than John? The answer is: " + markHigherBMI);
+
+
+*/
+
+const first_name = 'Jonas';
+const job = "teacher";
+const birthYear = 1991;
+const year= 2037
+
+const jonas = "I am " + first_name + ", a " + (year - birthYear) + " years old guy " + job
+console.log(jonas)
+
+const jonasNew = `I'm ${first_name}, a ${year - birthYear} years old ${job}`;
+console.log(jonasNew)
+
+const phone = 6942052.2
+const color = "kurwa zielony XD"
+
+
+const michalNew = `Siema jestem Michał i mój numer telefonu to ${phone} a obudowa ma kolor ${color}`
+console.log(michalNew)
