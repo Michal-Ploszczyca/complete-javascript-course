@@ -117,14 +117,24 @@ const is_old_enough = age >= 18;
 
 if (is_old_enough) {
     console.log("Sarah can start her driving license 🚌")
-    
-    
-}  else {
+
+
+} else {
 
     const years_left = 18 - age
     const spelling = years_left % 2 != 1
-    
+
     console.log(`Sarah has to wait ${years_left} years till she can start her driving license `)
 
 }
 
+let century;
+const birthYear = 2001
+if (birthYear <= 2000) {
+    century = 20;
+
+} else {
+    century = 21
+}
+
+console.log(century)
