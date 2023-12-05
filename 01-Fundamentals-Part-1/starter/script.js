@@ -110,7 +110,7 @@ const sentence = `My name is ${first_name} and i am a ${job}, my father was born
 and i was born in ${year}, my head color is ${color}`
 console.log(sentence)
 
-*/
+
 
 const age = 17;
 const is_old_enough = age >= 18;
@@ -138,3 +138,10 @@ if (birthYear <= 2000) {
 }
 
 console.log(century)
+
+*/
+
+const inputYear = "1991";
+console.log(Number(inputYear), inputYear);
+console.log(inputYear + 69)
+
