@@ -139,9 +139,53 @@ if (birthYear <= 2000) {
 
 console.log(century)
 
-*/
+
 
 const inputYear = "1991";
 console.log(Number(inputYear), inputYear);
-console.log(inputYear + 69)
+console.log(Number(inputYear) + 15)
 
+console.log(String(12))
+// if we use + then the string concatinate, everything else will convert to number
+console.log('20' - '10' - 3)
+console.log("23" * "2");
+
+
+console.log(Boolean(0))
+console.log(Boolean(undefined))
+console.log(Boolean("Jonas"))
+console.log(Boolean({}))
+
+
+const money = 20;
+
+if (money) {
+    console.log("Dont spend it all bro");
+} else {
+    console.log("You should get a job");
+}
+
+let height = ''
+if (height) {
+    console.log("Wow your height is defined brother")
+} else {
+    console.log("Your height IS NOT DEFINED brother")
+}
+
+*/
+
+const age = "18";
+
+if (age === 18) { console.log("The person is an adult (strict)") }
+
+if (age == 18) { console.log("The person is an adult (loose)") }
+
+
+
+const favourite = Number(prompt("What is your favourite number?"))
+console.log(favourite)
+
+
+if (favourite === 23) {
+    console.log('Cool 23 is an amazing number!')
+}
