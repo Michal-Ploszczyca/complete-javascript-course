@@ -172,7 +172,6 @@ if (height) {
     console.log("Your height IS NOT DEFINED brother")
 }
 
-*/
 
 const age = "18";
 
@@ -188,4 +187,39 @@ console.log(favourite)
 
 if (favourite === 23) {
     console.log('Cool 23 is an amazing number!')
+}
+
+
+
+const hasDrivingLicense = true;
+const hasGoodVision = false;
+
+console.log(hasDrivingLicense && hasGoodVision)
+console.log(hasDrivingLicense || hasGoodVision)
+console.log(!hasDrivingLicense)
+
+*/
+
+const day = "Sunday"
+switch(day) {
+    case "Monday":
+    console.log("Plan course structure");
+    console.log("Go to coding meet-up");
+    break;
+    case "Tuesday":
+        console.log('Prepare theory videos');
+        break;
+    case "Wednesday":
+    case "Thursday":
+        console.log("Write code examples")
+        break;
+    case "Friday":
+        console.log("Record videos")
+        break;
+    case "Saturday":
+    case "Sunday":
+        console.log("I am resting");
+        break;
+    default:
+        console.log("Not a valid day!")
 }

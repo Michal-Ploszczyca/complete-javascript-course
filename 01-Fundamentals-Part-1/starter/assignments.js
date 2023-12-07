@@ -56,5 +56,22 @@ if (BMIJohn > BMIMark) {
     console.log(`Mark's BMI (${BMIMark}) is higher than John's! (${BMIJohn})`)
 
 }
+
+const scoreDolphins = 96 + 108 + 90 / 3
+const scoreKoalas = 88 + 91 + 110 / 3
+
+
+
+
+
+console.log(scoreDolphins, scoreKoalas)
+
+if (scoreDolphins > scoreKoalas) {
+    console.log("Dolphins win the trophy")
+}else if (scoreKoalas > scoreDolphins) {
+    console.log("Koalas win the trophy")
+}else if (scoreDolphins === scoreKoalas) {
+    console.log("Both scores are equal")
+}
 */
 
