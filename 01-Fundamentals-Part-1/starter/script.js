@@ -201,11 +201,11 @@ console.log(!hasDrivingLicense)
 */
 
 const day = "Sunday"
-switch(day) {
+switch (day) {
     case "Monday":
-    console.log("Plan course structure");
-    console.log("Go to coding meet-up");
-    break;
+        console.log("Plan course structure");
+        console.log("Go to coding meet-up");
+        break;
     case "Tuesday":
         console.log('Prepare theory videos');
         break;
@@ -222,4 +222,22 @@ switch(day) {
         break;
     default:
         console.log("Not a valid day!")
+}
+
+
+
+const training = "basketball"
+
+switch (training) {
+    case "bjj":
+        console.log("I am training bjj")
+        break;
+    case "yoga":
+        console.log("I am training yoga")
+        break;
+    case "boxing":
+        console.log("i am training boxing")
+        break;
+    default:
+        console.log("nothing is working kurwa XD")
 }
