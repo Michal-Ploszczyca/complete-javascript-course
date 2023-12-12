@@ -198,9 +198,9 @@ console.log(hasDrivingLicense && hasGoodVision)
 console.log(hasDrivingLicense || hasGoodVision)
 console.log(!hasDrivingLicense)
 
-*/
 
-const day = "Sunday"
+
+const day = "Monday"
 switch (day) {
     case "Monday":
         console.log("Plan course structure");
@@ -223,8 +223,18 @@ switch (day) {
     default:
         console.log("Not a valid day!")
 }
-
-
+if (day === "Monday") {
+    console.log("Plan course structure");
+    console.log("Go to coding meet-up");
+} else if (day === "Tuesday") {
+    console.log('Prepare theory videos');
+} else if (day === "Wednesday" || day === "Thursday") {
+    console.log("Write code examples")
+} else if (day === "Saturday" || day === "Sunday") {
+    console.log("I am resting");
+} else {
+    console.log("Not a valid day!")
+}
 
 const training = "basketball"
 
@@ -241,3 +251,37 @@ switch (training) {
     default:
         console.log("nothing is working kurwa XD")
 }
+
+
+if (23 > 10) {
+    const str = "23 is bigger";
+}
+
+console.log(`I am ${2023 - 1998} years old`)
+
+
+
+
+const age = 15
+
+// age >= 18 ? console.log("I like to drink wine 🍷") :
+//     console.log("I like to drink water 💦")
+
+const drink = age >= 18 ? "wine 🍷" : "water 💦"
+console.log(drink)
+
+let drink2;
+if (age >= 18) {
+    drink2 = "mohito 🍹";
+} else {
+    drink2 = "water 💦";
+}
+
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? "wine 🍷" : "water 💦"}`)
+
+*/
+
+
+

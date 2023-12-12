@@ -73,5 +73,13 @@ if (scoreDolphins > scoreKoalas) {
 }else if (scoreDolphins === scoreKoalas) {
     console.log("Both scores are equal")
 }
+
+
+// CHALLANGE 4
 */
 
+const bill = 30;
+
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2
+
+console.log(`The bill is ${bill} and the tip is ${tip}, togheter it is ${bill + tip}`)
