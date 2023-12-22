@@ -1,6 +1,7 @@
 'use strict';
 
 
+/*
 
 const calcAverage = (score1, score2, score3) => (score1 + score2 +  score3) / 3;
 
@@ -28,3 +29,5 @@ scoreDolphins = calcAverage(85,54,41);
 scoreKoalas = calcAverage(23,34,27);
 
 checkWinner(scoreDolphins, scoreKoalas);
+
+*/

@@ -129,3 +129,30 @@ const calcAge = function(birthYear) {
 
 const calcAge = birthYear => 20237 -birthYear;
 */
+
+const friends = ['Michael', 'Steven', 'Peter'];
+console.log(friends);
+
+console.log(friends[friends.length - 1]) // to extract the last value form the list
+
+friends[1] = 'Adolf';
+console.log(friends);
+
+const firstName = 'Jonas'
+const jonas = [firstName, 'Schmedtman', 2037 -  1991, 'teacher', friends]
+
+console.log(jonas)
+
+// Exercise
+
+const calcAge = function(birthYear) {
+    return 2023 - birthYear
+}
+
+const years = [1991, 1960, 2002, 2028, 2018, 2023]
+
+const age1 = calcAge(years[0])
+const age2 = calcAge(years[1])
+const age3 = calcAge(years[years.length - 1])
+
+console.log(age1,age2, age3)
