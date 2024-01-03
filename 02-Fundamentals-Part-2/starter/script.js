@@ -128,7 +128,6 @@ const calcAge = function(birthYear) {
 };
 
 const calcAge = birthYear => 20237 -birthYear;
-*/
 
 const friends = ['Michael', 'Steven', 'Peter'];
 console.log(friends);
@@ -139,13 +138,13 @@ friends[1] = 'Adolf';
 console.log(friends);
 
 const firstName = 'Jonas'
-const jonas = [firstName, 'Schmedtman', 2037 -  1991, 'teacher', friends]
+const jonas = [firstName, 'Schmedtman', 2037 - 1991, 'teacher', friends]
 
 console.log(jonas)
 
 // Exercise
 
-const calcAge = function(birthYear) {
+const calcAge = function (birthYear) {
     return 2023 - birthYear
 }
 
@@ -155,4 +154,37 @@ const age1 = calcAge(years[0])
 const age2 = calcAge(years[1])
 const age3 = calcAge(years[years.length - 1])
 
-console.log(age1,age2, age3)
+console.log(age1, age2, age3)
+
+
+// ADD Elements
+const friends = ['Michael', 'Steven', 'Peter'];
+const newLength = friends.push('Amber')
+console.log(friends);
+console.log(newLength);
+
+friends.unshift('John')
+console.log(friends);
+
+// remove elemets
+
+friends.pop();
+const popped = friends.pop();
+console.log(popped)
+console.log(friends);
+
+friends.shift();
+console.log(friends)
+
+friends.push(23)
+console.log(friends.indexOf('Steven'));
+console.log(friends.indexOf('Bob'));
+
+console.log(friends.includes('Steven'))
+console.log(friends.includes('Bob'));
+
+if (friends.includes('Peter')) {
+    console.log("YOu have a friend call Peter")
+}
+
+*/
