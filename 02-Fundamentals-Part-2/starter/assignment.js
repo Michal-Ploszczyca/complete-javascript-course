@@ -47,7 +47,7 @@ BONUS: Create an array totals containing the total values, so the bill + tip.
 TEST DATA: 125, 555, and 44.
 
 
-*/
+
 
 
 function calcTip(bill) {
@@ -67,3 +67,4 @@ const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]]
 
 
 console.log(bills, tips, totals);
+*/

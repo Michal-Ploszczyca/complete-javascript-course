@@ -188,3 +188,27 @@ if (friends.includes('Peter')) {
 }
 
 */
+
+const michaelArray = [
+    'Michael',
+    'Ploszczi',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter']
+];
+
+
+const jonas = {
+    firstName: 'Jonas',
+    lastName: 'Schmedtman',
+    age: 2037 - 1991,
+    job: 'Teacher',
+    friends: ['Michael', 'Peter']
+};
+
+const nameKey = 'Name';
+console.log(jonas['first' + nameKey])
+console.log(jonas['last' + nameKey])
+
+
+console.log(jonas.firstName)
