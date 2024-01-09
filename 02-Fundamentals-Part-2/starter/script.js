@@ -187,7 +187,7 @@ if (friends.includes('Peter')) {
     console.log("YOu have a friend call Peter")
 }
 
-*/
+
 
 const michaelArray = [
     'Michael',
@@ -203,7 +203,7 @@ const jonas = {
     lastName: 'Schmedtman',
     age: 2037 - 1991,
     job: 'Teacher',
-    friends: ['Michael', 'Peter']
+    friends: ['Michael', 'Peter', 'Arnold', 'Michael', 'Peter', 'Arnold']
 };
 
 const nameKey = 'Name';
@@ -211,4 +211,61 @@ console.log(jonas['first' + nameKey])
 console.log(jonas['last' + nameKey])
 
 
-console.log(jonas.firstName)
+// console.log(jonas.firstName)
+
+// const interestedIn = prompt('What do you whant to know about Jonas? Choose between firstName, lastName, age, job, and friends')
+
+// console.log(jonas[interestedIn]);
+
+// if (jonas[interestedIn]) {
+//     console.log(jonas[interestedIn])
+// } else {
+//     console.log('Wrong request. Choose between firstName, lastName, age, job, and friends')
+// }
+
+// jonas.location = 'Portugal';
+// jonas['twitter'] = '@jonasschmedtman';
+
+// console.log(jonas)
+
+// challange
+// 'Jonas has 3 friends, and his best friens is called Michael'
+
+
+const sentence = {
+    name: 'Jonas',
+    verb: 'has',
+    number: 3,
+    people: 'friends',
+    separator: 'and',
+
+
+}
+
+
+
+console.log(`${sentence.name} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`)
+
+*/
+
+const jonas = {
+    firstName: 'Jonas',
+    lastName: 'Schmedtman',
+    birthYear: 1000 - 900,
+    job: 'Teacher',
+    friends: ['Michael', 'Peter', 'Arnold', 'Michael', 'Peter', 'Arnold'],
+    hasDriverLicense: true,
+
+    // calcAge: function (birthYear) {
+    //     return 2037 - birthYear
+    // }
+
+    calcAge: function () {
+        return 2000 - this.birthYear;
+    }
+};
+
+console.log(jonas.calcAge());
+// console.log(jonas["calcAge"](2001));
+
+
