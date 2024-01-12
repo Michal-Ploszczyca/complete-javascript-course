@@ -251,21 +251,46 @@ console.log(`${sentence.name} has ${jonas.friends.length} friends, and his best 
 const jonas = {
     firstName: 'Jonas',
     lastName: 'Schmedtman',
-    birthYear: 1000 - 900,
+    birthYear: 1991,
     job: 'Teacher',
-    friends: ['Michael', 'Peter', 'Arnold', 'Michael', 'Peter', 'Arnold'],
-    hasDriverLicense: true,
+    friends: ['Michael', 'Peter'],
+    hasDriverLicense: false,
 
     // calcAge: function (birthYear) {
     //     return 2037 - birthYear
     // }
 
+    // calcAge: function () {
+    //     console.log(this)
+    //     return 2037 - this.birthYear;
+    // }
     calcAge: function () {
-        return 2000 - this.birthYear;
-    }
-};
+        this.age = 2037 - this.birthYear;
+        return this.age;
+    },
 
-console.log(jonas.calcAge());
-// console.log(jonas["calcAge"](2001));
+    hasLicense: function () {
+        if (jonas.hasDriverLicense) {
+            this.hasDriverLicense = 'has driving license'
+            return this.hasDriverLicense
+        }
+        else {
+            return TouchList.hasDriverLicense = 'Has NOT Driving license'
+        }
+    },
+
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calcAge()}-year old ${this.job} and he has ${this.hasDriverLicense ? "a" : "no"} driver's license`
+        }
+    
+    
+}
 
 
+console.log(jonas.calcAge())
+
+// console.log(jonas.age())
+console.log(jonas.hasLicense())
+// console.log(`${jonas.firstName} is a ${jonas.age}-year old ${jonas.job}, and ${jonas.hasLicense()}`)
+console.log(jonas.getSummary())
+// "Jonas is a 46 old teacher and he has a dricer license"
