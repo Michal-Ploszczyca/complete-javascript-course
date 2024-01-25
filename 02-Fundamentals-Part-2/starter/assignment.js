@@ -67,7 +67,7 @@ const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]]
 
 
 console.log(bills, tips, totals);
-*/
+
 
 const mark = {
      fullName: "Mark Miller",
@@ -90,3 +90,41 @@ const mark = {
 // console.log(mark.calcBMI())
 // console.log(john.calcBMI())
 console.log(`${mark.calcBMI() > john.calcBMI() ? `Mark Miller's BMI (${mark.calcBMI()}) is higher than John Smith's BMI (${john.calcBMI()})` : 'John ma wyzsze i chuj'}`)
+
+*/
+
+const calcTip = function (bill) {
+     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+}
+
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52]
+let tips = []
+let totals = []
+
+for (let i = 0; i < bills.length; i++) {
+     let onlyTips = (calcTip(bills[i]))
+     tips.push(onlyTips)
+     totals.push(bills[i] + onlyTips)
+}
+
+console.log(tips)
+console.log(totals)
+
+// BONUS
+
+
+let sum = 0
+let avg = null
+const calcAverag = function (arr) {
+
+     for (let i = 0; i < arr.length; i++) {
+          sum = sum + arr[i]
+          avg = sum / arr.length
+
+     }
+     return avg
+}
+
+console.log(calcAverag([2, 5, 3, 8, 10]))
+// console.log(sum)
+// console.log(avg)
