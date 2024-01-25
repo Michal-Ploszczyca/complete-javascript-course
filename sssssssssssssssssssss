@@ -1,0 +1,108 @@
+commit 17b6f77ba54d85e6227e231e01b1ad18d4fc46c2 (HEAD -> master)
+Author: Dieppei <michal.ploszczyca98@gmail.com>
+Date:   Tue Dec 12 22:41:08 2023 +0100
+
+    my first commit through terminal
+
+commit 06b2aa2e5071eb2671bc240357bf13516acaf65b (origin/master, origin/HEAD)
+Author: michalploszczyca <michal.ploszczyca98@gmail.com>
+Date:   Thu Dec 7 22:11:57 2023 +0100
+
+    exercise 3 added
+
+commit d56a958d37e22f3e8e1f16522aef9eabb74d3d7c
+Author: Michal-Ploszczyca <michal.ploszczyca98@gmail.com>
+Date:   Wed Dec 6 13:06:02 2023 +0100
+
+    update
+
+commit 08837cfafde21c326400c793086780dbedb42162
+Author: Michal-Ploszczyca <michal.ploszczyca98@gmail.com>
+Date:   Wed Dec 6 00:44:56 2023 +0100
+
+    update lesson equal operators
+
+commit a442cc896d4380e9f841878a849295348eeba10f
+Author: Michal-Ploszczyca <michal.ploszczyca98@gmail.com>
+Date:   Wed Nov 29 23:08:20 2023 +0100
+
+    -lesson 19.
+    challange 2
+
+commit f526046bc0fe9794b91477f4af984b6e59024f05
+Author: michalploszczyca <michal.ploszczyca98@gmail.com>
+Date:   Wed Nov 29 20:53:43 2023 +0100
+
+    update
+
+commit f0a730010917ce1fdb831630edd0b0fc588568e7
+Author: michalploszczyca <michal.ploszczyca98@gmail.com>
+Date:   Wed Nov 22 13:58:09 2023 +0100
+
+    commit test
+
+commit 4502a61036464f963803ea053c0cb4dd9efb3052
+Author: michalploszczyca <michal.ploszczyca98@gmail.com>
+Date:   Mon Nov 20 16:10:04 2023 +0100
+
+    lesson 13
+
+commit 0eb99dcc09b1c969586514e90e87f5519603f059
+Author: Michal-Ploszczyca <michal.ploszczyca98@gmail.com>
+Date:   Sat Nov 18 16:20:18 2023 +0100
+
+    lesson about variables
+
+commit 8201b01f2fcd274fb276c1c8e11e55847c6d451e
+Author: Jonas Schmedtmann <hello@jonas.io>
+Date:   Mon Feb 7 08:18:41 2022 +0000
+
+    Updated readme
+
+commit 4a64f00ae930c9fe4c0af7b20ae6af6cf95d5acb
+Author: Jonas Schmedtmann <hello@jonas.io>
+Date:   Thu Nov 11 14:12:17 2021 +0000
+
+    v2.2
+
+commit 0a217ff24696034937dcc0a7a19f57c4735bc289
+Author: Jonas Schmedtmann <hello@jonas.io>
+Date:   Wed Jan 27 12:42:58 2021 +0000
+
+    New FAQs
+
+commit fe6ec3571770bbc71cfc8796aaa5056c4a4b8e1e
+Author: Jonas Schmedtmann <hello@jonas.io>
+Date:   Wed Jan 27 12:41:11 2021 +0000
+
+    New FAQs
+
+commit d817e0e3467ce47181e8504c535dad46e61fed4e
+Author: Jonas Schmedtmann <hello@jonas.io>
+Date:   Fri Jan 22 19:34:09 2021 +0000
+
+    v2.1
+
+commit 9f1ffbc59cf723851fb7210b8e237bf39ee69470
+Author: Jonas Schmedtmann <hello@jonas.io>
+Date:   Tue Jan 19 15:09:53 2021 +0000
+
+    Fixed some small bugs
+
+commit 838e45087162dbf41db5975c335639a9a1879829
+Author: Jonas Schmedtmann <hello@jonas.io>
+Date:   Tue Oct 27 15:31:54 2020 +0000
+
+    Fixed small error in forkify starter
+
+commit ff8ce81ae97be7093e4e9c5ae19f4c729fd3950a
+Author: Jonas Schmedtmann <hello@jonas.io>
+Date:   Sat Oct 24 14:25:42 2020 +0100
+
+    Updated FAQs
+
+commit 5ee088688f56770db1f1fa6285bb5b57d1cc6c5d
+Author: Jonas Schmedtmann <hello@jonas.io>
+Date:   Mon Oct 19 12:27:38 2020 +0100
+
+    First commit 🚀
