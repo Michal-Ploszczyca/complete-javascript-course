@@ -87,16 +87,19 @@ console.log(aplitudeBug);
 */
 const testData = [17, 21, 23];
 const testDat2 = [12, 5, -2, 0, 4];
-let s = '';
+
 const printForecast = function (arr) {
+  let s = '';
   let str = '';
   let count = 0;
   for (let i = 0; i < arr.length; i++) {
-    const print = `${s} ... ${arr[i]} ℃ in ${count} days`;
+    const print = ` ... ${arr[i]} ℃ in ${count} days`;
     str = str + print;
+    s = s + `${arr[i]} celsius `;
     count = count + 1;
   }
   console.log(str);
+  console.log(s);
 };
 
 printForecast(testDat2);
